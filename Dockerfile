@@ -1,4 +1,4 @@
-FROM grafana/grafana-oss:latest
+FROM grafana/grafana:latest
 
 RUN grafana cli plugins install grafana-github-datasource && \
     grafana cli plugins install grafana-polystat-panel && \
