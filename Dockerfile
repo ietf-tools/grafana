@@ -10,4 +10,5 @@ RUN grafana cli plugins install grafana-github-datasource && \
     grafana cli plugins install marcusolsson-treemap-panel && \
     grafana cli plugins install pgillich-tree-panel && \
     grafana cli plugins install simpod-json-datasource && \
-    grafana cli plugins install volkovlabs-echarts-panel
+    grafana cli plugins install volkovlabs-echarts-panel && \
+    grafana cli plugins install yesoreyeram-infinity-datasource
